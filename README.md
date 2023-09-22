@@ -19,13 +19,21 @@ This repository provides a comprehensive guide to perform CRUD (Create, Read, Up
 Before you begin, make sure you have the following prerequisites installed:
 
 - MongoDB: Download and install MongoDB from [https://www.mongodb.com/try/download/community](https://www.mongodb.com/try/download/community).
+- Start it by Using this command and You should be at the ~ directory.
+```
+mongod
+```
+- After that open another Tab and use this command to run it>
+```
+mongosh
+```
 
 ## Installation
 
 Clone this repository to your local machine using the following command:
 
 ```bash
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/diveshnew/MongoDB-Guide
 ```
 
 ## MongoDB Basics
@@ -42,6 +50,20 @@ db.collection('your-collection').insertMany([
   { key1: 'value1' },
   { key2: 'value2' },
 ]);
+```
+- Additional Commands
+```
+// For taking a look at all the databases
+Show dbs
+
+// For using and making the new database here it is shopDB
+use shopDB
+
+// Watching the current active database
+db
+
+// for listing all the current collections or tables in the current db
+show collections
 ```
 
 ## 2. Read
